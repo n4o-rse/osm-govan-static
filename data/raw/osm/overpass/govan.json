@@ -1,0 +1,251 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-18T09:43:28Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 12920194973,
+  "lat": 55.8645470,
+  "lon": -4.3129711,
+  "timestamp": "2026-07-29T11:37:32Z",
+  "version": 2,
+  "changeset": 186578855,
+  "user": "Edward",
+  "uid": 364,
+  "tags": {
+    "addr:city": "Glasgow",
+    "addr:housenumber": "866",
+    "addr:street": "Govan Road",
+    "contact:email": "info@thegovanstones.org.uk",
+    "fee": "no",
+    "museum": "history",
+    "name": "The Govan Stones",
+    "opening_hours": "Apr-Oct 11:00-16:00",
+    "tourism": "museum",
+    "website": "https://thegovanstones.org.uk/",
+    "wikidata": "Q42887850"
+  }
+},
+{
+  "type": "node",
+  "id": 13677371107,
+  "lat": 55.8647250,
+  "lon": -4.3131250,
+  "timestamp": "2026-03-27T13:17:54Z",
+  "version": 5,
+  "changeset": 180502340,
+  "user": "fthierygeo",
+  "uid": 8813335,
+  "tags": {
+    "collection": "yes",
+    "historic": "hogback",
+    "moved": "yes",
+    "name": "Govan Stone 2",
+    "ref": "ECMS, 2 Lang 1",
+    "url:sketchfab": "https://skfb.ly/6XTQr",
+    "wikidata": "Q136659904"
+  }
+},
+{
+  "type": "node",
+  "id": 13677371179,
+  "lat": 55.8647405,
+  "lon": -4.3131228,
+  "timestamp": "2026-03-27T16:21:11Z",
+  "version": 5,
+  "changeset": 180511047,
+  "user": "b-unicycling",
+  "uid": 1713634,
+  "tags": {
+    "collection": "yes",
+    "historic": "hogback",
+    "moved": "yes",
+    "name": "Govan Stone 3",
+    "ref": "ECMS 12, Lang 3",
+    "url:sketchfab": "https://skfb.ly/6XVFw",
+    "wikidata": "Q138806762"
+  }
+},
+{
+  "type": "node",
+  "id": 13680563647,
+  "lat": 55.8647567,
+  "lon": -4.3131185,
+  "timestamp": "2026-03-27T16:28:54Z",
+  "version": 4,
+  "changeset": 180511435,
+  "user": "b-unicycling",
+  "uid": 1713634,
+  "tags": {
+    "collection": "yes",
+    "historic": "hogback",
+    "moved": "yes",
+    "name": "Govan Stone 4",
+    "ref": "ECMS 3, Lang 4",
+    "url:sketchfab": "https://skfb.ly/6XWBE",
+    "wikidata": "Q138806836"
+  }
+},
+{
+  "type": "node",
+  "id": 13684729596,
+  "lat": 55.8647341,
+  "lon": -4.3130902,
+  "timestamp": "2026-03-27T16:16:01Z",
+  "version": 2,
+  "changeset": 180510787,
+  "user": "b-unicycling",
+  "uid": 1713634,
+  "tags": {
+    "collection": "yes",
+    "historic": "hogback",
+    "indoor": "yes",
+    "moved": "yes",
+    "name": "Govan Stone 5",
+    "ref": "ECMS 11, Lang 5",
+    "url:sketchfab": "https://skfb.ly/6XWFv",
+    "wikidata": "Q138806715"
+  }
+},
+{
+  "type": "node",
+  "id": 13684729597,
+  "lat": 55.8647514,
+  "lon": -4.3130854,
+  "timestamp": "2026-03-27T16:24:07Z",
+  "version": 2,
+  "changeset": 180511212,
+  "user": "b-unicycling",
+  "uid": 1713634,
+  "tags": {
+    "collection": "yes",
+    "historic": "hogback",
+    "moved": "yes",
+    "name": "Govan Stone 6",
+    "ref": "ECMS 10, Lang 2",
+    "url:sketchfab": "https://skfb.ly/6XXS9",
+    "wikidata": "Q138806805"
+  }
+},
+{
+  "type": "way",
+  "id": 49859412,
+  "timestamp": "2025-12-02T00:37:32Z",
+  "version": 7,
+  "changeset": 175381152,
+  "user": "philipcullen",
+  "uid": 8857,
+  "nodes": [
+    7156229538,
+    7156229541,
+    7156229532,
+    7156229496,
+    7156229525,
+    7156229526,
+    7156229527,
+    7156229531,
+    7156229528,
+    7156229529,
+    7156229530,
+    7156229524,
+    7156229523,
+    7156229522,
+    7156229519,
+    7156229520,
+    7156229521,
+    7156229516,
+    7156229515,
+    7156229512,
+    7156229513,
+    7156229514,
+    7156229510,
+    7156229509,
+    7156229508,
+    7156229511,
+    7156229517,
+    7156229518,
+    7156229540,
+    7156229539,
+    7156229503,
+    7156229504,
+    7156229505,
+    7156229506,
+    7156229507,
+    7156229502,
+    7156229501,
+    7156229500,
+    7156229499,
+    633514241,
+    633514240,
+    7156229498,
+    7156229497,
+    633514231,
+    7156229542,
+    633514229,
+    633514237,
+    633514236,
+    633514239,
+    633514238,
+    7156229419,
+    633514234,
+    633514235,
+    633514233,
+    633514232,
+    633514226,
+    633514225,
+    633514228,
+    7156229533,
+    7156229534,
+    7156229537,
+    7156229536,
+    7156229535,
+    7156229538
+  ],
+  "tags": {
+    "addr:city": "Glasgow",
+    "addr:postcode": "G51 3UU",
+    "addr:street": "Govan Road",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "church_of_scotland",
+    "name": "Govan Old Parish Church",
+    "ref:GB:uprn": "906700170769",
+    "religion": "christian",
+    "wikidata": "Q5588564",
+    "wikipedia": "en:Govan Old Parish Church"
+  }
+},
+{
+  "type": "relation",
+  "id": 19260105,
+  "timestamp": "2025-06-16T21:52:05Z",
+  "version": 1,
+  "changeset": 167714499,
+  "user": "b-unicycling",
+  "uid": 1713634,
+  "members": [
+    {
+      "type": "way",
+      "ref": 766210151,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 766210150,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "christian",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}
