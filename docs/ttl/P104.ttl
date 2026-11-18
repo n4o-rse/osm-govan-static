@@ -1,0 +1,148 @@
+# P104: the part of the RDF export of OSM features at Govan Old (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/osm-govan-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/osm-govan-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/osm-govan-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/osm-govan-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/osm-govan-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/osm-govan-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/osm-govan-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/osm-govan-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/osm-govan-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/osm-govan-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/osm-govan-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/osm-govan-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/osm-govan-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/osm-govan-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/osm-govan-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/osm-govan-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-govan-static/ttl/P104.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Das OSM-Changeset, in dem eine Version entstand (Qualifier); der Link führt zu seiner Seite bei OpenStreetMap."@de,
+        "The OSM changeset in which a version was made (qualifier); the link leads to its page at OpenStreetMap."@en ;
+    dcterms:identifier "P104" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject ogs:P104 ;
+    dcterms:title "OSM changeset"@en,
+        "OSM-Changeset"@de ;
+    schema:about ogs:P104 ;
+    dcat:distribution ogsdist:P104-html,
+        ogsdist:P104-json,
+        ogsdist:P104-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-govan-static/P104.html> .
+
+ogsdist:P104-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P104, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-govan-static/P104.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P104-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P104, as archived from the Wikibase API"@en ;
+    dcat:byteSize "1523"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-govan-static/json/P104.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P104-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P104, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P104.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P104
+    a wikibase:Property ;
+    schema:description "Das OSM-Changeset, in dem eine Version entstand (Qualifier); der Link führt zu seiner Seite bei OpenStreetMap."@de,
+        "The OSM changeset in which a version was made (qualifier); the link leads to its page at OpenStreetMap."@en ;
+    schema:name "OSM changeset"@en,
+        "OSM-Changeset"@de ;
+    wikibase:claim ogsp:P104 ;
+    wikibase:directClaim ogst:P104 ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:novalue ogsno:P104 ;
+    wikibase:propertyType wikibase:ExternalId ;
+    wikibase:qualifier ogspq:P104 ;
+    wikibase:qualifierValue ogspqv:P104 ;
+    wikibase:reference ogspr:P104 ;
+    wikibase:referenceValue ogsprv:P104 ;
+    wikibase:statementProperty ogsps:P104 ;
+    wikibase:statementValue ogspsv:P104 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "OSM changeset"@en,
+        "OSM-Changeset"@de ;
+    skos:prefLabel "OSM changeset"@en,
+        "OSM-Changeset"@de ;
+    ogsp:P2 ogss:P104-B15D88C7-254D-5063-8A2B-8E0D4B57B7CB ;
+    ogsp:P5 ogss:P104-EDCB3019-B44E-502B-8501-DB4B3CE64B14 ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P5 "https://www.openstreetmap.org/changeset/$1" .
+
+ogss:P104-B15D88C7-254D-5063-8A2B-8E0D4B57B7CB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogss:P104-EDCB3019-B44E-502B-8501-DB4B3CE64B14
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P5 "https://www.openstreetmap.org/changeset/$1" .
+
+ogsp:P104
+    a owl:ObjectProperty .
+
+ogst:P104
+    a owl:DatatypeProperty .
+
+ogspq:P104
+    a owl:DatatypeProperty .
+
+ogspqv:P104
+    a owl:ObjectProperty .
+
+ogspr:P104
+    a owl:DatatypeProperty .
+
+ogsprv:P104
+    a owl:ObjectProperty .
+
+ogsps:P104
+    a owl:DatatypeProperty .
+
+ogspsv:P104
+    a owl:ObjectProperty .
+
+ogsno:P104
+    a owl:Class ;
+    owl:complementOf _:ba931c848e12d966c11e6bd628fd0277 .
+
+_:ba931c848e12d966c11e6bd628fd0277
+    a owl:Restriction ;
+    owl:onProperty ogst:P104 ;
+    owl:someValuesFrom owl:Thing .
