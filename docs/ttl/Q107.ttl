@@ -1,0 +1,189 @@
+# Q107: the part of the RDF export of OSM features at Govan Old (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/osm-govan-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/osm-govan-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/osm-govan-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/osm-govan-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/osm-govan-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/osm-govan-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/osm-govan-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/osm-govan-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/osm-govan-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/osm-govan-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/osm-govan-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/osm-govan-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/osm-govan-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/osm-govan-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/osm-govan-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/osm-govan-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-govan-static/ttl/Q107.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap relation 19260105)"@en,
+        "Höhenmarke (OpenStreetMap-Relation 19260105)"@de ;
+    dcterms:identifier "Q107" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject ogs:Q107 ;
+    dcterms:title "OSM relation 19260105"@en,
+        "OSM-Relation 19260105"@de ;
+    schema:about ogs:Q107 ;
+    dcat:distribution ogsdist:Q107-html,
+        ogsdist:Q107-json,
+        ogsdist:Q107-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-govan-static/Q107.html> .
+
+ogsdist:Q107-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q107, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-govan-static/Q107.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q107-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q107, as archived from the Wikibase API"@en ;
+    dcat:byteSize "10755"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-govan-static/json/Q107.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q107-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q107, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q107.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q107
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap relation 19260105)"@en,
+        "Höhenmarke (OpenStreetMap-Relation 19260105)"@de ;
+    schema:name "OSM relation 19260105"@en,
+        "OSM-Relation 19260105"@de ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    geo:hasDefaultGeometry ogss:Q107-A56FC4E8-189F-5C69-8EBA-4D08C99CC6DA ;
+    geo:hasGeometry ogss:Q107-A56FC4E8-189F-5C69-8EBA-4D08C99CC6DA ;
+    rdfs:label "OSM relation 19260105"@en,
+        "OSM-Relation 19260105"@de ;
+    skos:prefLabel "OSM relation 19260105"@en,
+        "OSM-Relation 19260105"@de ;
+    ogsp:P2 ogss:Q107-1F93CACF-4E8A-55D5-865C-8181373DD66C ;
+    ogsp:P100 ogss:Q107-A6EA8EE8-7424-55EE-AD0A-F8084CBB9715 ;
+    ogsp:P101 ogss:Q107-223E544F-40C8-5F0A-8DAA-9B80346FE935 ;
+    ogsp:P110 ogss:Q107-EB29B6BA-1AA0-5D5F-B9B2-7619AFD01952 ;
+    ogsp:P111 ogss:Q107-A56FC4E8-189F-5C69-8EBA-4D08C99CC6DA ;
+    ogsp:P113 ogss:Q107-73F5FA38-1836-545F-83EE-9F1B403E0BAF,
+        ogss:Q107-88F66EC8-A619-580F-8497-C0136CEB9476,
+        ogss:Q107-AE450AA9-8E80-5B78-9A34-07E565D935C3 ;
+    ogst:P2 ogs:Q100 ;
+    ogst:P100 <https://www.openstreetmap.org/relation/19260105> ;
+    ogst:P101 <https://www.openstreetmap.org/relation/19260105/history/1> ;
+    ogst:P110 "Point(-4.3129485 55.8642799)"^^geo:wktLiteral ;
+    ogst:P111 "MULTIPOLYGON(((-4.3131155 55.8643452, -4.3131919 55.8643667, -4.313214 55.8643745, -4.3132312 55.8643854, -4.3132421 55.8643987, -4.3132459 55.8644132, -4.3132422 55.8644276, -4.3132234 55.8644886, -4.3132248 55.8645044, -4.3132422 55.8645127, -4.3133146 55.8645247, -4.3134501 55.8645375, -4.3135158 55.864533, -4.3135701 55.8645206, -4.3136077 55.8644969, -4.3136385 55.864472, -4.3136566 55.8644314, -4.3136633 55.8643667, -4.3136466 55.8643196, -4.3136217 55.8642779, -4.3135768 55.8642354, -4.3135151 55.8641876, -4.3134447 55.8641473, -4.3133448 55.8641014, -4.313261 55.8640739, -4.3132181 55.8640664, -4.3132073 55.8640724, -4.313204 55.8641059, -4.3131966 55.8641601, -4.3131597 55.8642433, -4.3131182 55.8643249, -4.3131141 55.8643366, -4.3131155 55.8643452)), ((-4.3128888 55.8643539, -4.3129599 55.8643482, -4.3129874 55.8643456, -4.3130022 55.8643355, -4.3130102 55.8643204, -4.3130196 55.8642873, -4.3130236 55.8642542, -4.3130478 55.8641473, -4.3130732 55.864086, -4.3130994 55.8640408, -4.3130994 55.8640318, -4.313094 55.8640231, -4.3130813 55.8640149, -4.3129143 55.8639547, -4.3127413 55.8639065, -4.3125415 55.8638636, -4.3124627 55.8638517, -4.3124352 55.8638536, -4.3124141 55.8638604, -4.3123916 55.863879, -4.3123527 55.8639187, -4.3123289 55.8639236, -4.3123172 55.8639281, -4.3123135 55.8639394, -4.3123282 55.8641037, -4.3123417 55.8642756, -4.3123396 55.8643249, -4.3123236 55.8644318, -4.3123169 55.8644875, -4.3122337 55.8645236, -4.3122679 55.8645665, -4.3122994 55.8645887, -4.3123712 55.8646222, -4.3124597 55.8646534, -4.3125764 55.8646805, -4.3125992 55.8646846, -4.3126209 55.8646875, -4.3127759 55.8647082, -4.3127902 55.8646648, -4.3127733 55.864663, -4.3127768 55.8646523, -4.3127967 55.8646543, -4.3128862 55.8643831, -4.3128888 55.8643539)))" ;
+    ogst:P113 "amenity=grave_yard",
+        "religion=christian",
+        "type=multipolygon" .
+
+ogss:Q107-1F93CACF-4E8A-55D5-865C-8181373DD66C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q100 .
+
+ogss:Q107-73F5FA38-1836-545F-83EE-9F1B403E0BAF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:99a5e2630e0c279e6d005ae509b9aded311d5876 ;
+    ogsps:P113 "religion=christian" .
+
+ogss:Q107-88F66EC8-A619-580F-8497-C0136CEB9476
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:99a5e2630e0c279e6d005ae509b9aded311d5876 ;
+    ogsps:P113 "type=multipolygon" .
+
+ogss:Q107-223E544F-40C8-5F0A-8DAA-9B80346FE935
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    ogspq:P102 "+1"^^xsd:decimal ;
+    ogspq:P103 "2025-06-16T21:52:05Z" ;
+    ogspq:P104 "167714499" ;
+    ogspq:P105 "b-unicycling" ;
+    ogspq:P106 "1713634" ;
+    ogspqv:P102 ogsv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ogsps:P101 <https://www.openstreetmap.org/relation/19260105/history/1> .
+
+ogss:Q107-A6EA8EE8-7424-55EE-AD0A-F8084CBB9715
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P100 <https://www.openstreetmap.org/relation/19260105> .
+
+ogss:Q107-A56FC4E8-189F-5C69-8EBA-4D08C99CC6DA
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "MULTIPOLYGON(((-4.3131155 55.8643452, -4.3131919 55.8643667, -4.313214 55.8643745, -4.3132312 55.8643854, -4.3132421 55.8643987, -4.3132459 55.8644132, -4.3132422 55.8644276, -4.3132234 55.8644886, -4.3132248 55.8645044, -4.3132422 55.8645127, -4.3133146 55.8645247, -4.3134501 55.8645375, -4.3135158 55.864533, -4.3135701 55.8645206, -4.3136077 55.8644969, -4.3136385 55.864472, -4.3136566 55.8644314, -4.3136633 55.8643667, -4.3136466 55.8643196, -4.3136217 55.8642779, -4.3135768 55.8642354, -4.3135151 55.8641876, -4.3134447 55.8641473, -4.3133448 55.8641014, -4.313261 55.8640739, -4.3132181 55.8640664, -4.3132073 55.8640724, -4.313204 55.8641059, -4.3131966 55.8641601, -4.3131597 55.8642433, -4.3131182 55.8643249, -4.3131141 55.8643366, -4.3131155 55.8643452)), ((-4.3128888 55.8643539, -4.3129599 55.8643482, -4.3129874 55.8643456, -4.3130022 55.8643355, -4.3130102 55.8643204, -4.3130196 55.8642873, -4.3130236 55.8642542, -4.3130478 55.8641473, -4.3130732 55.864086, -4.3130994 55.8640408, -4.3130994 55.8640318, -4.313094 55.8640231, -4.3130813 55.8640149, -4.3129143 55.8639547, -4.3127413 55.8639065, -4.3125415 55.8638636, -4.3124627 55.8638517, -4.3124352 55.8638536, -4.3124141 55.8638604, -4.3123916 55.863879, -4.3123527 55.8639187, -4.3123289 55.8639236, -4.3123172 55.8639281, -4.3123135 55.8639394, -4.3123282 55.8641037, -4.3123417 55.8642756, -4.3123396 55.8643249, -4.3123236 55.8644318, -4.3123169 55.8644875, -4.3122337 55.8645236, -4.3122679 55.8645665, -4.3122994 55.8645887, -4.3123712 55.8646222, -4.3124597 55.8646534, -4.3125764 55.8646805, -4.3125992 55.8646846, -4.3126209 55.8646875, -4.3127759 55.8647082, -4.3127902 55.8646648, -4.3127733 55.864663, -4.3127768 55.8646523, -4.3127967 55.8646543, -4.3128862 55.8643831, -4.3128888 55.8643539)))"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ogsref:99a5e2630e0c279e6d005ae509b9aded311d5876 ;
+    ogspq:P102 "+1"^^xsd:decimal ;
+    ogspq:P103 "2025-06-16T21:52:05Z" ;
+    ogspqv:P102 ogsv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ogsps:P111 "MULTIPOLYGON(((-4.3131155 55.8643452, -4.3131919 55.8643667, -4.313214 55.8643745, -4.3132312 55.8643854, -4.3132421 55.8643987, -4.3132459 55.8644132, -4.3132422 55.8644276, -4.3132234 55.8644886, -4.3132248 55.8645044, -4.3132422 55.8645127, -4.3133146 55.8645247, -4.3134501 55.8645375, -4.3135158 55.864533, -4.3135701 55.8645206, -4.3136077 55.8644969, -4.3136385 55.864472, -4.3136566 55.8644314, -4.3136633 55.8643667, -4.3136466 55.8643196, -4.3136217 55.8642779, -4.3135768 55.8642354, -4.3135151 55.8641876, -4.3134447 55.8641473, -4.3133448 55.8641014, -4.313261 55.8640739, -4.3132181 55.8640664, -4.3132073 55.8640724, -4.313204 55.8641059, -4.3131966 55.8641601, -4.3131597 55.8642433, -4.3131182 55.8643249, -4.3131141 55.8643366, -4.3131155 55.8643452)), ((-4.3128888 55.8643539, -4.3129599 55.8643482, -4.3129874 55.8643456, -4.3130022 55.8643355, -4.3130102 55.8643204, -4.3130196 55.8642873, -4.3130236 55.8642542, -4.3130478 55.8641473, -4.3130732 55.864086, -4.3130994 55.8640408, -4.3130994 55.8640318, -4.313094 55.8640231, -4.3130813 55.8640149, -4.3129143 55.8639547, -4.3127413 55.8639065, -4.3125415 55.8638636, -4.3124627 55.8638517, -4.3124352 55.8638536, -4.3124141 55.8638604, -4.3123916 55.863879, -4.3123527 55.8639187, -4.3123289 55.8639236, -4.3123172 55.8639281, -4.3123135 55.8639394, -4.3123282 55.8641037, -4.3123417 55.8642756, -4.3123396 55.8643249, -4.3123236 55.8644318, -4.3123169 55.8644875, -4.3122337 55.8645236, -4.3122679 55.8645665, -4.3122994 55.8645887, -4.3123712 55.8646222, -4.3124597 55.8646534, -4.3125764 55.8646805, -4.3125992 55.8646846, -4.3126209 55.8646875, -4.3127759 55.8647082, -4.3127902 55.8646648, -4.3127733 55.864663, -4.3127768 55.8646523, -4.3127967 55.8646543, -4.3128862 55.8643831, -4.3128888 55.8643539)))" .
+
+ogss:Q107-AE450AA9-8E80-5B78-9A34-07E565D935C3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:99a5e2630e0c279e6d005ae509b9aded311d5876 ;
+    ogsps:P113 "amenity=grave_yard" .
+
+ogss:Q107-EB29B6BA-1AA0-5D5F-B9B2-7619AFD01952
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:99a5e2630e0c279e6d005ae509b9aded311d5876 ;
+    ogsps:P110 "Point(-4.3129485 55.8642799)"^^geo:wktLiteral ;
+    ogspsv:P110 ogsv:2913603e1d447304f5e09ee3fd937102 .
+
+ogsref:99a5e2630e0c279e6d005ae509b9aded311d5876
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.openstreetmap.org/relation/19260105/history/1> .
+
+ogsv:2913603e1d447304f5e09ee3fd937102
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "55.8642799"^^xsd:double ;
+    wikibase:geoLongitude "-4.3129485"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

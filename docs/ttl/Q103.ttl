@@ -1,0 +1,325 @@
+# Q103: the part of the RDF export of OSM features at Govan Old (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/osm-govan-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/osm-govan-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/osm-govan-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/osm-govan-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/osm-govan-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/osm-govan-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/osm-govan-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/osm-govan-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/osm-govan-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/osm-govan-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/osm-govan-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/osm-govan-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/osm-govan-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/osm-govan-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/osm-govan-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/osm-govan-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-govan-static/ttl/Q103.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 13677371179)"@en,
+        "Höhenmarke (OpenStreetMap-Node 13677371179)"@de ;
+    dcterms:identifier "Q103" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject ogs:Q103 ;
+    dcterms:title "Govan Stone 3"@de,
+        "Govan Stone 3"@en ;
+    schema:about ogs:Q103 ;
+    dcat:distribution ogsdist:Q103-html,
+        ogsdist:Q103-json,
+        ogsdist:Q103-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-govan-static/Q103.html> .
+
+ogsdist:Q103-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q103, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-govan-static/Q103.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q103-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q103, as archived from the Wikibase API"@en ;
+    dcat:byteSize "23269"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-govan-static/json/Q103.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q103-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q103, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q103.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q103
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 13677371179)"@en,
+        "Höhenmarke (OpenStreetMap-Node 13677371179)"@de ;
+    schema:name "Govan Stone 3"@de,
+        "Govan Stone 3"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "18"^^xsd:integer ;
+    geo:hasDefaultGeometry ogss:Q103-2D1DBFBE-511D-50D6-8C73-B150EF66D9DF ;
+    geo:hasGeometry ogss:Q103-2D1DBFBE-511D-50D6-8C73-B150EF66D9DF,
+        ogss:Q103-85672352-62D4-5E88-8286-F81E3A8D4C8C ;
+    rdfs:label "Govan Stone 3"@de,
+        "Govan Stone 3"@en ;
+    skos:prefLabel "Govan Stone 3"@de,
+        "Govan Stone 3"@en ;
+    ogsp:P2 ogss:Q103-54055322-9D86-5B37-A1AE-D6BEFA56FDEC ;
+    ogsp:P100 ogss:Q103-C8133615-A16D-5C74-9FA4-F14CEE5A4573 ;
+    ogsp:P101 ogss:Q103-45893AB4-3F6E-5163-AF51-CFAF22EA3228,
+        ogss:Q103-97244BF5-30A9-5358-AD4C-0FCC131443B0,
+        ogss:Q103-AB81FD03-CA32-5872-9D6E-FD9B7CEC6425,
+        ogss:Q103-BACD43B3-0C9C-5148-9F72-2E5BAB318EE1,
+        ogss:Q103-FE053C91-0078-58B1-B961-B801990BB9E4 ;
+    ogsp:P107 ogss:Q103-3DAF913E-0D50-5362-8779-45711A92AF97 ;
+    ogsp:P110 ogss:Q103-FBCC8BA9-4D8F-59ED-8496-7C5EA24A929C ;
+    ogsp:P111 ogss:Q103-2D1DBFBE-511D-50D6-8C73-B150EF66D9DF,
+        ogss:Q103-85672352-62D4-5E88-8286-F81E3A8D4C8C ;
+    ogsp:P113 ogss:Q103-3F6C9C04-DB9F-5E74-8FED-CB5A4EB90C6B,
+        ogss:Q103-4B7F6488-F853-576A-990E-5BE597C81ACD,
+        ogss:Q103-059D56EE-137B-593F-AC81-07D728E928C0,
+        ogss:Q103-C58A89FD-00A1-5A78-AB79-A2674D14928B,
+        ogss:Q103-C71FD3CA-EC12-5B3F-A458-2A9ABAF5F990,
+        ogss:Q103-EEF5F80A-A127-5A86-BE1F-A4A578F0E0BC,
+        ogss:Q103-EFB15A1B-1F0F-57C8-A3D8-1C06956A4B29 ;
+    ogst:P2 ogs:Q100 ;
+    ogst:P100 <https://www.openstreetmap.org/node/13677371179> ;
+    ogst:P101 <https://www.openstreetmap.org/node/13677371179/history/5> ;
+    ogst:P107 <https://www.openstreetmap.org/node/13677371179/history/1> ;
+    ogst:P110 "Point(-4.3131228 55.8647405)"^^geo:wktLiteral ;
+    ogst:P111 "POINT(-4.3131035 55.8647261)",
+        "POINT(-4.3131228 55.8647405)" ;
+    ogst:P113 "collection=yes",
+        "historic=hogback",
+        "moved=yes",
+        "name=Govan Stone 3",
+        "ref=ECMS 12, Lang 3",
+        "url:sketchfab=https://skfb.ly/6XVFw",
+        "wikidata=Q138806762" .
+
+ogss:Q103-2D1DBFBE-511D-50D6-8C73-B150EF66D9DF
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-4.3131228 55.8647405)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ogsref:4f68c29dbb37660d8187b6090553a0b62aca83fd ;
+    ogspq:P102 "+4"^^xsd:decimal ;
+    ogspq:P103 "2026-03-27T13:17:54Z" ;
+    ogspqv:P102 ogsv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ogsps:P111 "POINT(-4.3131228 55.8647405)" .
+
+ogss:Q103-3DAF913E-0D50-5362-8779-45711A92AF97
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogspq:P109 "govan" ;
+    ogsps:P107 <https://www.openstreetmap.org/node/13677371179/history/1> .
+
+ogss:Q103-3F6C9C04-DB9F-5E74-8FED-CB5A4EB90C6B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:d0d362ce2694bd0501abc34ac0c86b00f26b9e66 ;
+    ogsps:P113 "wikidata=Q138806762" .
+
+ogss:Q103-4B7F6488-F853-576A-990E-5BE597C81ACD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:d0d362ce2694bd0501abc34ac0c86b00f26b9e66 ;
+    ogsps:P113 "historic=hogback" .
+
+ogss:Q103-059D56EE-137B-593F-AC81-07D728E928C0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:d0d362ce2694bd0501abc34ac0c86b00f26b9e66 ;
+    ogsps:P113 "url:sketchfab=https://skfb.ly/6XVFw" .
+
+ogss:Q103-45893AB4-3F6E-5163-AF51-CFAF22EA3228
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogspq:P102 "+1"^^xsd:decimal ;
+    ogspq:P103 "2026-03-25T10:22:28Z" ;
+    ogspq:P104 "180399719" ;
+    ogspq:P105 "fthierygeo" ;
+    ogspq:P106 "8813335" ;
+    ogspqv:P102 ogsv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ogsps:P101 <https://www.openstreetmap.org/node/13677371179/history/1> .
+
+ogss:Q103-97244BF5-30A9-5358-AD4C-0FCC131443B0
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogspq:P102 "+4"^^xsd:decimal ;
+    ogspq:P103 "2026-03-27T13:17:54Z" ;
+    ogspq:P104 "180502340" ;
+    ogspq:P105 "fthierygeo" ;
+    ogspq:P106 "8813335" ;
+    ogspqv:P102 ogsv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ogsps:P101 <https://www.openstreetmap.org/node/13677371179/history/4> .
+
+ogss:Q103-54055322-9D86-5B37-A1AE-D6BEFA56FDEC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q100 .
+
+ogss:Q103-85672352-62D4-5E88-8286-F81E3A8D4C8C
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-4.3131035 55.8647261)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ogsref:c98885845ba75665aa81b280bce467c6b9510539 ;
+    ogspq:P102 "+1"^^xsd:decimal ;
+    ogspq:P103 "2026-03-25T10:22:28Z" ;
+    ogspqv:P102 ogsv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ogsps:P111 "POINT(-4.3131035 55.8647261)" .
+
+ogss:Q103-AB81FD03-CA32-5872-9D6E-FD9B7CEC6425
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogspq:P102 "+3"^^xsd:decimal ;
+    ogspq:P103 "2026-03-27T12:57:48Z" ;
+    ogspq:P104 "180501420" ;
+    ogspq:P105 "fthierygeo" ;
+    ogspq:P106 "8813335" ;
+    ogspqv:P102 ogsv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ogsps:P101 <https://www.openstreetmap.org/node/13677371179/history/3> .
+
+ogss:Q103-BACD43B3-0C9C-5148-9F72-2E5BAB318EE1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    ogspq:P102 "+5"^^xsd:decimal ;
+    ogspq:P103 "2026-03-27T16:21:11Z" ;
+    ogspq:P104 "180511047" ;
+    ogspq:P105 "b-unicycling" ;
+    ogspq:P106 "1713634" ;
+    ogspqv:P102 ogsv:30e603cac620241526fa9f81268ba25c ;
+    ogsps:P101 <https://www.openstreetmap.org/node/13677371179/history/5> .
+
+ogss:Q103-C58A89FD-00A1-5A78-AB79-A2674D14928B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:d0d362ce2694bd0501abc34ac0c86b00f26b9e66 ;
+    ogsps:P113 "name=Govan Stone 3" .
+
+ogss:Q103-C71FD3CA-EC12-5B3F-A458-2A9ABAF5F990
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:d0d362ce2694bd0501abc34ac0c86b00f26b9e66 ;
+    ogsps:P113 "moved=yes" .
+
+ogss:Q103-C8133615-A16D-5C74-9FA4-F14CEE5A4573
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P100 <https://www.openstreetmap.org/node/13677371179> .
+
+ogss:Q103-EEF5F80A-A127-5A86-BE1F-A4A578F0E0BC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:d0d362ce2694bd0501abc34ac0c86b00f26b9e66 ;
+    ogsps:P113 "ref=ECMS 12, Lang 3" .
+
+ogss:Q103-EFB15A1B-1F0F-57C8-A3D8-1C06956A4B29
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:d0d362ce2694bd0501abc34ac0c86b00f26b9e66 ;
+    ogsps:P113 "collection=yes" .
+
+ogss:Q103-FBCC8BA9-4D8F-59ED-8496-7C5EA24A929C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:d0d362ce2694bd0501abc34ac0c86b00f26b9e66 ;
+    ogsps:P110 "Point(-4.3131228 55.8647405)"^^geo:wktLiteral ;
+    ogspsv:P110 ogsv:22611b77761b7f03ff5b5f4d471661ad .
+
+ogss:Q103-FE053C91-0078-58B1-B961-B801990BB9E4
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogspq:P102 "+2"^^xsd:decimal ;
+    ogspq:P103 "2026-03-25T22:57:29Z" ;
+    ogspq:P104 "180430803" ;
+    ogspq:P105 "b-unicycling" ;
+    ogspq:P106 "1713634" ;
+    ogspqv:P102 ogsv:c295f8f927aa4b01b5401a2788a068ea ;
+    ogsps:P101 <https://www.openstreetmap.org/node/13677371179/history/2> .
+
+ogsref:4f68c29dbb37660d8187b6090553a0b62aca83fd
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.openstreetmap.org/node/13677371179/history/4> .
+
+ogsref:c98885845ba75665aa81b280bce467c6b9510539
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.openstreetmap.org/node/13677371179/history/1> .
+
+ogsref:d0d362ce2694bd0501abc34ac0c86b00f26b9e66
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.openstreetmap.org/node/13677371179/history/5> .
+
+ogsv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ogsv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ogsv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ogsv:22611b77761b7f03ff5b5f4d471661ad
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "55.8647405"^^xsd:double ;
+    wikibase:geoLongitude "-4.3131228"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ogsv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

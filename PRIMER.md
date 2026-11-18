@@ -1,6 +1,6 @@
 # PRIMER — osm-govan-static
 
-Arbeitsplan für `n4o-rse/osm-govan-static` (Repo angelegt 2026-11-18). Wird zu Beginn jedes Chats hochgeladen (Bundle, siehe A5) und am Ende zurückgeschrieben. Stand: 2026-11-18 (S0: Festlegungen, Befunde; S1: Skeleton; S2: Modell aus `osm-benchmarks-static`).
+Arbeitsplan für `n4o-rse/osm-govan-static` (Repo angelegt 2026-11-18). Wird zu Beginn jedes Chats hochgeladen (Bundle, siehe A5) und am Ende zurückgeschrieben. Stand: 2026-11-18 (S0 bis S2 eingespielt, S4 Rohdaten geerntet, S5 geprüft, S6 gebaut; S3 offen im Paket, S7 danach).
 
 Sprache: dieses Dokument ist deutsch, alles andere im Repo (Code, Kommentare, README) ist britisches Englisch.
 
@@ -55,6 +55,7 @@ Nicht neu zu bauen: das Modell (P100 bis P113), `import-osm`, Seiten, RDF, SPARQ
 5. **Umfang des Harvests.** 8 Elemente: eine Overpass-Anfrage, höchstens 8 History-Anfragen, dazu die Stützpunkte von Way und Relation (`data/raw/osm/members/`, `--member-limit`); ein Lauf genügt. Overpass und die OSM-API sind aus der Sandbox nicht erreichbar (am 2026-11-18 erneut geprüft, 403 des Proxys); der Harvest läuft bei Flo.
 6. **Verwandt.** `wd-govanstones-static` (Wikidata, Präfix `gvs`, auf GitHub Pages online) beschreibt dieselben Steine aus Wikidata; diese OSM-Site beschreibt die Kartierung vor Ort. Eine Verknüpfung (Wikidata-QID aus dem Tag `wikidata` eines OSM-Elements) kommt über P-Property des Modells; ein `owl:sameAs` auf OSM bleibt ausgeschlossen (A4).
 7. **Skeleton ohne Daten** (geprüft 2026-11-18 mit `wikibase-static` v0.28.0): `python main.py --strict` läuft mit den Modelldateien (4 Klassen: Q1 bis Q3 und Q100; 24 Properties, 60 Statements) dreimal mit Exit-Code 0 durch; nach dem Einchecken von `data/derived/`, `dist/` und `docs/` ist `git status` leer. `check-crm` meldet 0 Verstöße, `check_attribution.py` findet „OpenStreetMap contributors“ in 63 Dateien. Ohne `queries.yaml` scheitert `--strict` an der Standardabfrage `coordinates` (keine Zeilen, WARN), deshalb liegt eine vorläufige `queries.yaml` (Standardsatz von v0.28.0 ohne `coordinates`) im Repo, die mit dem ersten Harvest gelöscht wird. Ohne Logo baut die Site sauber (kein Eintrag `logo` in `site.yaml`).
+8. **Erstharvest und Rohdaten (S4, geerntet 2026-11-18, bei Flo).** Overpass-Stand 2026-11-18: 8 Elemente (6 Nodes, 1 Way, 1 Relation), 28 Version-Statements, 7 mit `name`, 7 mit `wikidata`. Die Elemente: das Museum „The Govan Stones“ (Node), fünf Hogbacks „Govan Stone 2“ bis „Govan Stone 6“ (Nodes, `historic=hogback`), die Kirche „Govan Old Parish Church“ (Way 49859412, Version 7, 22 Geometriestände) und der Friedhof (Relation 19260105, `amenity=grave_yard`, ohne Namen, MULTIPOLYGON). Sieben von acht tragen ein `wikidata`-Tag (alle außer dem Friedhof): die Brücke zu `wd-govanstones-static`. Die Relation hat wegen des Platzhalters der Tag-Bedingung (Befund 3) keinen Eintrittsmarker. Der Echttest der Geometrie ist bestanden (Way und Relation mit WKT-Verlauf, GeoSPARQL im RDF). Die Rohdaten liegen committet unter `data/raw/osm/` (Commit 1863b34); der Import in die Tabellen läuft offline (`python main.py import-osm --offline`, ersetzt alle Zeilen mit `origin=osm`) und wartet auf S3. Das zweite Mal `import-osm` stellt nur noch die Overpass-Anfrage.
 
 ---
 
@@ -83,7 +84,7 @@ Eine QID je OSM-Element, die Versionen als Statements daran; das Beispiel mit de
 Die Ergebnisse müssen diese Eigenschaften haben, jede ist prüfbar:
 
 1. Jedes Element hat genau eine QID; es gibt keine Versions-Items.
-2. Zahl der OSM-Version-Statements je Element = Zahl der Versionen in der API-History.
+2. Zahl der OSM-Version-Statements je Element = Zahl der Versionen in der API-History (Versionen ohne Position, also Löschungen, ausgenommen).
 3. Jede QID ist über `data/crm.csv` auf eine CRM-Klasse verankert; `check-crm` meldet keinen Verstoß.
 4. Das RDF enthält kein `owl:sameAs` auf OpenStreetMap; die Statement- und Wert-IRIs sind reine Bezeichner im eigenen Namensraum.
 5. Zweimal laufen lassen ändert nichts (`git status` leer); ein zweiter Harvest ohne Änderung bei OSM stellt nur die Overpass-Anfrage.
@@ -115,7 +116,7 @@ Die Ergebnisse müssen diese Eigenschaften haben, jede ist prüfbar:
 | Abfrage | Unverändert aus Overpass Turbo übernommen (Umkreis 120 m, neun Teilbedingungen); wenn mehr erfasst werden soll, sagt Flo Bescheid | 2026-11-18 |
 | Auswahl | Name `govan`; Dateien `data/seeds/govan.csv` (Tag-Bedingung, **Platzhalter** `name`, siehe Befund 3) und `data/seeds/overpass-govan.overpassql` | 2026-11-18 |
 | Auswahlname | `main.py` hängt bei `import-osm` `--selection govan` an, wenn es fehlt (wie bei den drei Schwester-Sites) | 2026-11-18 |
-| Logo | Noch keines; `site.yaml` hat bewusst keinen Eintrag `logo`. Teil D | 2026-11-18 |
+| Logo | Zeichnung des Govan-Sarkophags in der alten Kirche (`assets/logo.png`), von Florian Thiery, mit ChatGPT erzeugt, CC BY 4.0 (bestätigt 2026-11-18) | 2026-11-18 |
 | Modell | Wie `osm-benchmarks-static`, **1:1**: eine QID je OSM-Element, Versionen als Statements, Eintrittsmarker, Geometrie-Verlauf als WKT, Tags nur aktuell als `key=value`; Properties P100 bis P113 mit denselben IDs, Namen und Datentypen; Rolle → ID in `data/csv/mapping/osm-properties.csv`. Alle übrigen Beschlüsse der A4 dort gelten hier unverändert | 2026-11-18 |
 | Lizenz | ODbL 1.0 mit „© OpenStreetMap contributors“ in `site.yaml` (`license`); der Code unter MIT | 2026-11-18 |
 | URIs | Eigener Namensraum im github.io-Raum des Repos (`rdf_base`), Präfixfamilie `ogs` (`ogs:`, `ogst:`, …; Vorschlag, Schwestern: `ohs`, `oos`, `oss`); kein `owl:sameAs` und kein `skos:exactMatch` auf OSM | Vorschlag 2026-11-18 |
@@ -150,12 +151,12 @@ Alles `geplant`, bis die erste Veröffentlichung die Basis festlegt. Vorschlag: 
 | ID | Schritt | Repo | hängt ab von | Status |
 |---|---|---|---|---|
 | S0 | Festlegungen, Abfrage aus Overpass Turbo, Befunde | osm-govan-static | – | erledigt 2026-11-18 |
-| S1 | Skeleton: Layout, `main.py`, `site.yaml`, `requirements.txt`, Lizenz, Citation, Workflow-Aufrufer, `update.yml`, `update.cmd` (ohne Logo) | osm-govan-static | S0 | gebaut 2026-11-18 (Patch-ZIP; Einspielen offen) |
-| S2 | Modell: Klasse, Properties P100 bis P113, `data/crm.csv`, Mapping-Datei, Seeds | osm-govan-static | S1 | gebaut 2026-11-18 (Patch-ZIP; Einspielen offen) |
+| S1 | Skeleton: Layout, `main.py`, `site.yaml`, `requirements.txt`, Lizenz, Citation, Workflow-Aufrufer, `update.yml`, `update.cmd` (Logo kommt mit dem Patch vom 2026-11-18) | osm-govan-static | S0 | erledigt 2026-11-18 (Commit 1608896) |
+| S2 | Modell: Klasse, Properties P100 bis P113, `data/crm.csv`, Mapping-Datei, Seeds | osm-govan-static | S1 | erledigt 2026-11-18 (Commit 1608896) |
 | S3 | Paket: Beschreibungswörter je Klasse statt der festen Tabelle; ODER-Bedingungen für den Eintrittsmarker (Befund 3); gemeinsam für holywells, ogham, sisal und govan | wikibase-static | S2 | offen |
-| S4 | Erstharvest: 8 Elemente (Stand Screenshot), Overpass, Historien, Import, Seiten, RDF, `check-crm` | osm-govan-static | S3 | offen |
-| S5 | Echttest der Geometrie an dem Way und der Relation (der zurückgestellte S6-Test der Benchmarks) | osm-govan-static | S4 | offen |
-| S6 | Standardabfragen (`queries.yaml`): Versionen je Element, Eintrittsversion, Wikidata-Verknüpfungen (Verbindung zu `wd-govanstones-static`) | osm-govan-static | S4 | offen |
+| S4 | Erstharvest: 8 Elemente (Stand Screenshot), Overpass, Historien, Import, Seiten, RDF, `check-crm` | osm-govan-static | S3 | Rohdaten erledigt 2026-11-18 (Commit 1863b34); Import wartet auf S3 |
+| S5 | Echttest der Geometrie an dem Way und der Relation (der zurückgestellte S6-Test der Benchmarks) | osm-govan-static | S4 | erledigt 2026-11-18 (Geometrie getestet, Befund 8) |
+| S6 | Standardabfragen (`queries.yaml`): Versionen je Element, Eintrittsversion, Wikidata-Verknüpfungen (Verbindung zu `wd-govanstones-static`) | osm-govan-static | S4 | gebaut 2026-11-18 (Patch) |
 | S7 | Pages-Workflow scharf (`deploy` an, `check_attribution.py`), ODbL-Hinweis, CI mit `--strict` zweimal | osm-govan-static | S4 | offen |
 
 S1 und S2 sind in einem Patch. S3 gilt gleichzeitig für die vier neuen Site-Repos und ist ein Chat im Paket-Repo; der Harvest (S4) sollte erst danach committet werden (falsche Beschreibungen, falscher Eintrittsmarker). Flo wartet mit S3, weil sich im Paket durch die Wikidata-Sites noch etwas ändern kann.
@@ -186,15 +187,23 @@ Gebaut auf dem Stand von `osm-ogham-static` (2026-11-18): `main.py`, `requiremen
 
 Vorschlag zum Zuschnitt, vor dem Bauen als Formular zu bestätigen: (a) die Beschreibungswörter je Klasse (englisch und deutsch) kommen aus `entities.csv` oder den Seeds statt aus der festen Tabelle `THINGS`; der Rückfall der Benchmarks bleibt, damit `osm-benchmarks-static` unverändert baut. (b) Die Tag-Bedingung einer Auswahl kann mehrere Gruppen haben, von denen **eine** zutreffen muss (z. B. eine Spalte `group` in `data/seeds/<name>.csv`; Zeilen derselben Gruppe bleiben UND, Gruppen sind ODER); ohne die Spalte verhält sich alles wie heute. Der Auftrag gilt gleichzeitig für `osm-holywells-static`, `osm-ogham-static`, `osm-sisal-static` und `osm-govan-static`.
 
+Aus dem Harvest 2026-11-18 kommen zwei Wünsche dazu: (c) `wikimedia_commons` mit einer Kategorie nicht verlieren (0 Elemente hier), (d) Löschversionen (Versionen ohne Position) benennen statt nur zu melden. Beides darf auch später kommen; die Rohdaten liegen committet, der Import läuft offline neu.
+
 **Abnahme:** Tests im Paket; in einer Kopie dieses Repos mit einem Probe-Element trägt das Item die richtige Beschreibung, der Eintrittsmarker steht bei einem Element, das nur eine der neun Bedingungen erfüllt; `check-crm` meldet keinen Verstoß; `osm-benchmarks-static` baut mit der neuen Version byteweise gleich.
 
 ### S4 bis S7
 
 Wie die Schritte S5 bis S8 von `osm-benchmarks-static` (dort ausführlich und mit Befunden): Harvest mit Netz (`python main.py import-osm --probe --contact <Adresse>` zuerst, dann ohne `--probe`, bei Flo), Import, Seiten, `check-crm`, danach die Abfragen und die Veröffentlichung. Besonderheiten hier:
-- **S4** Abnahme: 8 Elemente (oder die Zahl der heutigen Overpass-Antwort), Zahl der Version-Statements je Element = Zahl der Versionen der API-History, jede Historie vollständig, zweiter Lauf stellt nur die Overpass-Anfrage; `queries.yaml` gelöscht. Da der Harvest bei Flo läuft und er selbst committet, braucht S4 keinen Patch.
+- **S4** Abnahme: 8 Elemente (oder die Zahl der heutigen Overpass-Antwort), Zahl der Version-Statements je Element = Zahl der Versionen der API-History (Versionen ohne Position, also Löschungen, ausgenommen; der Importer meldet sie), jede Historie vollständig, zweiter Lauf stellt nur die Overpass-Anfrage; `queries.yaml` gelöscht. Da der Harvest bei Flo läuft und er selbst committet, braucht S4 keinen Patch.
 - **S5** an Way und Relation: Geometrie-Verlauf als WKT, Karte, GeoSPARQL; Abnahme: das Gebäude und die Friedhofsfläche erscheinen auf der Karte, die Zahl der Requests (Stützpunkte) ist notiert.
 - **S6** auch eine Abfrage für Elemente mit `wikidata`-Tag, um die Brücke zu `wd-govanstones-static` zu zeigen.
 - **S7** `deploy: false` entfernen und `&& python check_attribution.py` im Aufrufer ergänzen; einmal im Repo: Settings → Pages → Source „GitHub Actions“ und Actions → General → „Allow GitHub Actions to create and approve pull requests“ (für `update.yml`).
+
+### Erledigt 2026-11-18 (S4 Rohdaten, S5 Geometrie, S6 Abfragen)
+
+- **S4:** Rohdaten geerntet und committet (Commit 1863b34), Befund 8. Der Import wartet auf S3.
+- **S5:** Die Geometrie von Ways und Relationen ist mit den Rohdaten getestet (Befund 8).
+- **S6:** `queries.yaml` ersetzt die vorläufige Datei: die Abfragen der Benchmarks mit dem Präfix `ogs` und diese Abfragen für die Site: Versionen je Element, Eintrittsversion, Änderungen seit einem Datum, Benutzer mit den meisten Versionen, Positionswechsel, Position zu einem Zeitpunkt, Elemente mit Wikidata-Item, Elemente mit einem bestimmten Tag, Form-Änderungen von Ways und Relationen, dazu die allgemeinen Abfragen des Pakets. Jede Abfrage liefert mindestens eine Zeile (sonst bricht `--strict` ab); getestet mit `wikibase-static` v0.28.0.
 
 ---
 
@@ -202,8 +211,15 @@ Wie die Schritte S5 bis S8 von `osm-benchmarks-static` (dort ausführlich und mi
 
 - **Tag-Bedingung (Befund 3):** Platzhalter `name`. Entscheiden mit S3: ODER-Gruppen im Paket (Vorschlag) oder die Abfrage so umbauen, dass eine gemeinsame Bedingung existiert (geht nicht ohne Verlust: Kirche und Friedhof teilen keinen Tag).
 - **Klassen:** eine Klasse (`crm:E18`) statt Kirche, Friedhof, Museum, Stein, weil das Paket nur eine Klasse je Site kann. Mehrere Klassen wären eine spätere Paketerweiterung (gleicher Wunsch kann bei den wd-Sites auftreten).
-- **Logo:** keines. Bei den Schwestern ist es eine Zeichnung von Flo (CC BY 4.0); wenn eine kommt: `assets/logo.png`, `logo:` in `site.yaml`, Absatz im README.
+- **Logo:** erledigt (Sarkophag, CC BY 4.0).
 - **Präfix:** `ogs` ist ein Vorschlag; die Schwestern haben `ohs`, `oos`, `oss`. Änderung vor der ersten Veröffentlichung möglich.
 - **Gebiet:** 120 m um 55.864725, −4.313125 sind eng gewählt; wenn das Gelände (Govan Old Churchyard, Hogbacks, Nachbargebäude) größer gefasst werden soll, sagt Flo Bescheid; dann Abfrage und Befund 2 anpassen.
 - **Wikidata-Brücke:** Wie die OSM-Elemente mit den Wikidata-Items von `wd-govanstones-static` verbunden werden (nur über das Tag `wikidata`, als Property-Wert ohne `owl:sameAs`), mit S6 klären.
 - **Netz:** `import-osm` ist hier noch nicht gelaufen; beim ersten Lauf `--contact` setzen und die Pause prüfen.
+
+**Dazugekommen 2026-11-18 (Harvest):**
+
+- **Löschversionen:** Versionen ohne Position (Löschungen) übergeht der Importer; die Zahl der Version-Statements ist dann kleiner als die der API-Versionen. Die Abnahmeregel von S4 nimmt sie aus; offen, ob sie ein eigenes Statement bekommen sollen (S3 oder danach).
+- **Eintrittsmarker:** die Relation (Friedhof) hat keinen, weil der Platzhalter `name` verlangt (Befund 3).
+- **Wikidata-Brücke:** 7 von 8 Elementen haben ein `wikidata`-Tag; die Abfrage `osm-wikidata` zeigt sie. Ob eine Property „entspricht Wikidata-Item“ im Modell dazukommt, ist offen.
+- **Veröffentlichung (S7):** erst nach S3 und dem Rollout, weil die Beschreibungen sonst „Benchmark …“ lauten: in `.github/workflows/site.yml` `deploy: false` durch `deploy: true` ersetzen und `&& python check_attribution.py` an den Befehl hängen (siehe PATCH-README).

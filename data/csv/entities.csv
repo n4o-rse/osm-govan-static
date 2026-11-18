@@ -1,5 +1,13 @@
 id,kind,datatype,origin,label_en,label_de,description_en,description_de
 Q100,class,,,Govan Old feature,Objekt bei Govan Old,"A feature within 120 m of Govan Old (Glasgow) that is mapped as one element in OpenStreetMap: church, churchyard or cemetery, historic or archaeological object, museum.","Ein Objekt im Umkreis von 120 m um Govan Old (Glasgow), das in OpenStreetMap als ein Element kartiert ist: Kirche, Kirchhof oder Friedhof, historisches oder archäologisches Objekt, Museum."
+Q101,item,,osm,The Govan Stones,The Govan Stones,Benchmark (OpenStreetMap node 12920194973),Höhenmarke (OpenStreetMap-Node 12920194973)
+Q102,item,,osm,Govan Stone 2,Govan Stone 2,Benchmark (OpenStreetMap node 13677371107),Höhenmarke (OpenStreetMap-Node 13677371107)
+Q103,item,,osm,Govan Stone 3,Govan Stone 3,Benchmark (OpenStreetMap node 13677371179),Höhenmarke (OpenStreetMap-Node 13677371179)
+Q104,item,,osm,Govan Stone 4,Govan Stone 4,Benchmark (OpenStreetMap node 13680563647),Höhenmarke (OpenStreetMap-Node 13680563647)
+Q105,item,,osm,Govan Stone 5,Govan Stone 5,Benchmark (OpenStreetMap node 13684729596),Höhenmarke (OpenStreetMap-Node 13684729596)
+Q106,item,,osm,Govan Stone 6,Govan Stone 6,Benchmark (OpenStreetMap node 13684729597),Höhenmarke (OpenStreetMap-Node 13684729597)
+Q107,item,,osm,OSM relation 19260105,OSM-Relation 19260105,Benchmark (OpenStreetMap relation 19260105),Höhenmarke (OpenStreetMap-Relation 19260105)
+Q108,item,,osm,Govan Old Parish Church,Govan Old Parish Church,Benchmark (OpenStreetMap way 49859412),Höhenmarke (OpenStreetMap-Weg 49859412)
 P100,property,url,,OSM element,OSM-Element,"The OpenStreetMap element (node, way or relation) this item describes; the URL names its type and ID.","Das OpenStreetMap-Element (Node, Way oder Relation), das dieses Item beschreibt; die URL nennt Typ und ID."
 P101,property,url,,OSM version,OSM-Version,"One version of the OSM element, as the URL of that version; one statement per version.",Eine Version des OSM-Elements als URL dieser Version; ein Statement je Version.
 P102,property,quantity,,OSM version number,OSM-Versionsnummer,Number of an OSM version (qualifier).,Nummer einer OSM-Version (Qualifier).

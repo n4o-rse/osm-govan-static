@@ -1,0 +1,291 @@
+# Q101: the part of the RDF export of OSM features at Govan Old (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/osm-govan-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/osm-govan-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/osm-govan-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/osm-govan-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/osm-govan-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/osm-govan-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/osm-govan-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/osm-govan-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/osm-govan-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/osm-govan-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/osm-govan-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/osm-govan-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/osm-govan-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/osm-govan-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/osm-govan-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/osm-govan-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-govan-static/ttl/Q101.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 12920194973)"@en,
+        "Höhenmarke (OpenStreetMap-Node 12920194973)"@de ;
+    dcterms:identifier "Q101" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject ogs:Q101 ;
+    dcterms:title "The Govan Stones"@de,
+        "The Govan Stones"@en ;
+    schema:about ogs:Q101 ;
+    dcat:distribution ogsdist:Q101-html,
+        ogsdist:Q101-json,
+        ogsdist:Q101-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-govan-static/Q101.html> .
+
+ogsdist:Q101-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q101, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-govan-static/Q101.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q101-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q101, as archived from the Wikibase API"@en ;
+    dcat:byteSize "18990"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-govan-static/json/Q101.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q101-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q101, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q101.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q101
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 12920194973)"@en,
+        "Höhenmarke (OpenStreetMap-Node 12920194973)"@de ;
+    schema:name "The Govan Stones"@de,
+        "The Govan Stones"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "18"^^xsd:integer ;
+    geo:hasDefaultGeometry ogss:Q101-8EB6BF1E-A7DB-5444-A5E7-D3A9AC73B3F7 ;
+    geo:hasGeometry ogss:Q101-8EB6BF1E-A7DB-5444-A5E7-D3A9AC73B3F7 ;
+    rdfs:label "The Govan Stones"@de,
+        "The Govan Stones"@en ;
+    skos:prefLabel "The Govan Stones"@de,
+        "The Govan Stones"@en ;
+    ogsp:P2 ogss:Q101-07A372F5-2E9F-5447-A90A-37F4B9B3C28F ;
+    ogsp:P100 ogss:Q101-30FD1A3B-B847-5CA3-8732-9A4AD322AE19 ;
+    ogsp:P101 ogss:Q101-1998BFAA-F056-5D65-894C-4C36503EF4C6,
+        ogss:Q101-CCA69730-8160-5873-B8CB-1A4C9DBAA51C ;
+    ogsp:P107 ogss:Q101-93EC517F-BFAF-51F3-A0EC-ECDCDF6731A7 ;
+    ogsp:P110 ogss:Q101-89242E25-6BA6-5361-8494-66F42B959F68 ;
+    ogsp:P111 ogss:Q101-8EB6BF1E-A7DB-5444-A5E7-D3A9AC73B3F7 ;
+    ogsp:P113 ogss:Q101-1CC6E499-BEAF-5270-ACC5-83AB1C535DA4,
+        ogss:Q101-4B547CA8-F7FF-570E-B097-878A7CCD7B32,
+        ogss:Q101-004BBD29-6269-51B9-9D2D-684569DDAD45,
+        ogss:Q101-4F5F017D-C406-5787-A58F-1805B6D31AB3,
+        ogss:Q101-6EC6D19E-6F9B-5830-B08B-778AD4506C36,
+        ogss:Q101-12BBDA1D-3D94-572B-9DE5-8965DA193595,
+        ogss:Q101-65D7475A-4EFF-547C-8DDE-326A21FBC8AD,
+        ogss:Q101-6380BDFE-7924-59BD-8D91-655A4EBC317F,
+        ogss:Q101-50023088-73B9-57E6-BA7E-6FD718ED9A6C,
+        ogss:Q101-E693ADA5-54E3-5D47-A198-4D505077F00F,
+        ogss:Q101-E9096426-9969-58B7-AD2F-0BFA4E5E1466 ;
+    ogst:P2 ogs:Q100 ;
+    ogst:P100 <https://www.openstreetmap.org/node/12920194973> ;
+    ogst:P101 <https://www.openstreetmap.org/node/12920194973/history/2> ;
+    ogst:P107 <https://www.openstreetmap.org/node/12920194973/history/1> ;
+    ogst:P110 "Point(-4.3129711 55.864547)"^^geo:wktLiteral ;
+    ogst:P111 "POINT(-4.3129711 55.864547)" ;
+    ogst:P113 "addr:city=Glasgow",
+        "addr:housenumber=866",
+        "addr:street=Govan Road",
+        "contact:email=info@thegovanstones.org.uk",
+        "fee=no",
+        "museum=history",
+        "name=The Govan Stones",
+        "opening_hours=Apr-Oct 11:00-16:00",
+        "tourism=museum",
+        "website=https://thegovanstones.org.uk/",
+        "wikidata=Q42887850" .
+
+ogss:Q101-1CC6E499-BEAF-5270-ACC5-83AB1C535DA4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P113 "addr:city=Glasgow" .
+
+ogss:Q101-4B547CA8-F7FF-570E-B097-878A7CCD7B32
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P113 "wikidata=Q42887850" .
+
+ogss:Q101-004BBD29-6269-51B9-9D2D-684569DDAD45
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P113 "tourism=museum" .
+
+ogss:Q101-4F5F017D-C406-5787-A58F-1805B6D31AB3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P113 "opening_hours=Apr-Oct 11:00-16:00" .
+
+ogss:Q101-6EC6D19E-6F9B-5830-B08B-778AD4506C36
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P113 "website=https://thegovanstones.org.uk/" .
+
+ogss:Q101-07A372F5-2E9F-5447-A90A-37F4B9B3C28F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q100 .
+
+ogss:Q101-8EB6BF1E-A7DB-5444-A5E7-D3A9AC73B3F7
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-4.3129711 55.864547)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ogsref:65173554cddde2584a2658b3b108ae30f4912d42 ;
+    ogspq:P102 "+1"^^xsd:decimal ;
+    ogspq:P103 "2025-06-16T21:52:05Z" ;
+    ogspqv:P102 ogsv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ogsps:P111 "POINT(-4.3129711 55.864547)" .
+
+ogss:Q101-12BBDA1D-3D94-572B-9DE5-8965DA193595
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P113 "name=The Govan Stones" .
+
+ogss:Q101-30FD1A3B-B847-5CA3-8732-9A4AD322AE19
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P100 <https://www.openstreetmap.org/node/12920194973> .
+
+ogss:Q101-65D7475A-4EFF-547C-8DDE-326A21FBC8AD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P113 "addr:street=Govan Road" .
+
+ogss:Q101-93EC517F-BFAF-51F3-A0EC-ECDCDF6731A7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogspq:P109 "govan" ;
+    ogsps:P107 <https://www.openstreetmap.org/node/12920194973/history/1> .
+
+ogss:Q101-1998BFAA-F056-5D65-894C-4C36503EF4C6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    ogspq:P102 "+2"^^xsd:decimal ;
+    ogspq:P103 "2026-07-29T11:37:32Z" ;
+    ogspq:P104 "186578855" ;
+    ogspq:P105 "Edward" ;
+    ogspq:P106 "364" ;
+    ogspqv:P102 ogsv:c295f8f927aa4b01b5401a2788a068ea ;
+    ogsps:P101 <https://www.openstreetmap.org/node/12920194973/history/2> .
+
+ogss:Q101-6380BDFE-7924-59BD-8D91-655A4EBC317F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P113 "contact:email=info@thegovanstones.org.uk" .
+
+ogss:Q101-89242E25-6BA6-5361-8494-66F42B959F68
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P110 "Point(-4.3129711 55.864547)"^^geo:wktLiteral ;
+    ogspsv:P110 ogsv:48b4cf4b233c0a88fd11260b0b821510 .
+
+ogss:Q101-50023088-73B9-57E6-BA7E-6FD718ED9A6C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P113 "museum=history" .
+
+ogss:Q101-CCA69730-8160-5873-B8CB-1A4C9DBAA51C
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogspq:P102 "+1"^^xsd:decimal ;
+    ogspq:P103 "2025-06-16T21:52:05Z" ;
+    ogspq:P104 "167714499" ;
+    ogspq:P105 "b-unicycling" ;
+    ogspq:P106 "1713634" ;
+    ogspqv:P102 ogsv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ogsps:P101 <https://www.openstreetmap.org/node/12920194973/history/1> .
+
+ogss:Q101-E693ADA5-54E3-5D47-A198-4D505077F00F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P113 "addr:housenumber=866" .
+
+ogss:Q101-E9096426-9969-58B7-AD2F-0BFA4E5E1466
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd ;
+    ogsps:P113 "fee=no" .
+
+ogsref:65173554cddde2584a2658b3b108ae30f4912d42
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.openstreetmap.org/node/12920194973/history/1> .
+
+ogsref:ec7aafbea5824a5d2f21385d760ef7487162c3cd
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.openstreetmap.org/node/12920194973/history/2> .
+
+ogsv:48b4cf4b233c0a88fd11260b0b821510
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "55.864547"^^xsd:double ;
+    wikibase:geoLongitude "-4.3129711"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ogsv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

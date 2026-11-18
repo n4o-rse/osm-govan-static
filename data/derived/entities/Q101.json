@@ -1,0 +1,745 @@
+{
+  "aliases": {},
+  "claims": {
+    "P100": [
+      {
+        "id": "Q101$30FD1A3B-B847-5CA3-8732-9A4AD322AE19",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/node/12920194973"
+          },
+          "property": "P100",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P101": [
+      {
+        "id": "Q101$CCA69730-8160-5873-B8CB-1A4C9DBAA51C",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/node/12920194973/history/1"
+          },
+          "property": "P101",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+1",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2025-06-16T21:52:05Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ],
+          "P104": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "167714499"
+              },
+              "property": "P104",
+              "snaktype": "value"
+            }
+          ],
+          "P105": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "b-unicycling"
+              },
+              "property": "P105",
+              "snaktype": "value"
+            }
+          ],
+          "P106": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "1713634"
+              },
+              "property": "P106",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103",
+          "P104",
+          "P105",
+          "P106"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q101$1998BFAA-F056-5D65-894C-4C36503EF4C6",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+          },
+          "property": "P101",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2026-07-29T11:37:32Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ],
+          "P104": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "186578855"
+              },
+              "property": "P104",
+              "snaktype": "value"
+            }
+          ],
+          "P105": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "Edward"
+              },
+              "property": "P105",
+              "snaktype": "value"
+            }
+          ],
+          "P106": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "364"
+              },
+              "property": "P106",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103",
+          "P104",
+          "P105",
+          "P106"
+        ],
+        "rank": "preferred",
+        "type": "statement"
+      }
+    ],
+    "P107": [
+      {
+        "id": "Q101$93EC517F-BFAF-51F3-A0EC-ECDCDF6731A7",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/node/12920194973/history/1"
+          },
+          "property": "P107",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P109": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "govan"
+              },
+              "property": "P109",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P109"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P110": [
+      {
+        "id": "Q101$89242E25-6BA6-5361-8494-66F42B959F68",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 55.864547,
+              "longitude": -4.3129711,
+              "precision": 1e-06
+            }
+          },
+          "property": "P110",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P111": [
+      {
+        "id": "Q101$8EB6BF1E-A7DB-5444-A5E7-D3A9AC73B3F7",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POINT(-4.3129711 55.864547)"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+1",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2025-06-16T21:52:05Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/1"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P113": [
+      {
+        "id": "Q101$1CC6E499-BEAF-5270-ACC5-83AB1C535DA4",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "addr:city=Glasgow"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q101$E693ADA5-54E3-5D47-A198-4D505077F00F",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "addr:housenumber=866"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q101$65D7475A-4EFF-547C-8DDE-326A21FBC8AD",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "addr:street=Govan Road"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q101$6380BDFE-7924-59BD-8D91-655A4EBC317F",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "contact:email=info@thegovanstones.org.uk"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q101$E9096426-9969-58B7-AD2F-0BFA4E5E1466",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "fee=no"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q101$50023088-73B9-57E6-BA7E-6FD718ED9A6C",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "museum=history"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q101$12BBDA1D-3D94-572B-9DE5-8965DA193595",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "name=The Govan Stones"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q101$4F5F017D-C406-5787-A58F-1805B6D31AB3",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "opening_hours=Apr-Oct 11:00-16:00"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q101$004BBD29-6269-51B9-9D2D-684569DDAD45",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "tourism=museum"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q101$6EC6D19E-6F9B-5830-B08B-778AD4506C36",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "website=https://thegovanstones.org.uk/"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q101$4B547CA8-F7FF-570E-B097-878A7CCD7B32",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "wikidata=Q42887850"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/12920194973/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P2": [
+      {
+        "id": "Q101$07A372F5-2E9F-5447-A90A-37F4B9B3C28F",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q100",
+              "numeric-id": 100
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Höhenmarke (OpenStreetMap-Node 12920194973)"
+    },
+    "en": {
+      "language": "en",
+      "value": "Benchmark (OpenStreetMap node 12920194973)"
+    }
+  },
+  "id": "Q101",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "The Govan Stones"
+    },
+    "en": {
+      "language": "en",
+      "value": "The Govan Stones"
+    }
+  },
+  "sitelinks": {},
+  "type": "item"
+}

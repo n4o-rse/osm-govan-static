@@ -1,0 +1,18 @@
+PREFIX ogsp: <https://n4o-rse.github.io/osm-govan-static/prop/>
+PREFIX ogspq: <https://n4o-rse.github.io/osm-govan-static/prop/qualifier/>
+PREFIX ogsps: <https://n4o-rse.github.io/osm-govan-static/prop/statement/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?item ?label ?entryVersion ?since ?selection WHERE {
+  ?item ogsp:P107 ?entry ;
+        ogsp:P101 ?version ;
+        rdfs:label ?label .
+  ?entry ogsps:P107 ?url ;
+         ogspq:P109 ?selection .
+  ?version ogsps:P101 ?url ;
+           ogspq:P102 ?entryVersion ;
+           ogspq:P103 ?since .
+  FILTER(LANG(?label) = "en")
+}
+ORDER BY DESC(?entryVersion) ?since ?label
+LIMIT 200

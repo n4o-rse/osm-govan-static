@@ -1,0 +1,264 @@
+# Q105: the part of the RDF export of OSM features at Govan Old (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/osm-govan-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/osm-govan-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/osm-govan-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/osm-govan-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/osm-govan-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/osm-govan-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/osm-govan-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/osm-govan-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/osm-govan-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/osm-govan-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/osm-govan-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/osm-govan-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/osm-govan-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/osm-govan-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/osm-govan-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/osm-govan-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-govan-static/ttl/Q105.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 13684729596)"@en,
+        "Höhenmarke (OpenStreetMap-Node 13684729596)"@de ;
+    dcterms:identifier "Q105" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject ogs:Q105 ;
+    dcterms:title "Govan Stone 5"@de,
+        "Govan Stone 5"@en ;
+    schema:about ogs:Q105 ;
+    dcat:distribution ogsdist:Q105-html,
+        ogsdist:Q105-json,
+        ogsdist:Q105-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-govan-static/Q105.html> .
+
+ogsdist:Q105-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q105, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-govan-static/Q105.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q105-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q105, as archived from the Wikibase API"@en ;
+    dcat:byteSize "16278"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-govan-static/json/Q105.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q105-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q105, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q105.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q105
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 13684729596)"@en,
+        "Höhenmarke (OpenStreetMap-Node 13684729596)"@de ;
+    schema:name "Govan Stone 5"@de,
+        "Govan Stone 5"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "15"^^xsd:integer ;
+    geo:hasDefaultGeometry ogss:Q105-D2535C6A-89F1-5BCB-9366-F5F6060E6223 ;
+    geo:hasGeometry ogss:Q105-D2535C6A-89F1-5BCB-9366-F5F6060E6223 ;
+    rdfs:label "Govan Stone 5"@de,
+        "Govan Stone 5"@en ;
+    skos:prefLabel "Govan Stone 5"@de,
+        "Govan Stone 5"@en ;
+    ogsp:P2 ogss:Q105-B3AC9E50-BE78-5951-BE8D-CE6D230AC6E1 ;
+    ogsp:P100 ogss:Q105-FFE1A2CB-8C0A-53ED-A178-B7D05AD512BF ;
+    ogsp:P101 ogss:Q105-574936DC-E283-5B5C-8C29-490078AE35C1,
+        ogss:Q105-BD9DCB81-A8CE-5196-80A1-B6C5E9982B92 ;
+    ogsp:P107 ogss:Q105-4AAA32F9-2119-5E51-B5CB-26E33F242217 ;
+    ogsp:P110 ogss:Q105-4F5C6325-1545-5656-8B4D-85F6464FD3D6 ;
+    ogsp:P111 ogss:Q105-D2535C6A-89F1-5BCB-9366-F5F6060E6223 ;
+    ogsp:P113 ogss:Q105-0F2AA3B1-10AD-5E4B-A580-AE4EDDC286D3,
+        ogss:Q105-1F164689-2210-59E4-838E-D79E3F1AC0D1,
+        ogss:Q105-3D0D31AF-6017-53F3-89CA-4402DC663103,
+        ogss:Q105-9D5ED65F-57BB-544B-A6C0-8872ECE245F7,
+        ogss:Q105-3947B6CE-99CD-5B68-BF06-036DB4008A8D,
+        ogss:Q105-AC0E3F29-3392-5378-9319-C61DF6818674,
+        ogss:Q105-CA60D4E0-E78A-5285-ACF6-802300C7D202,
+        ogss:Q105-E4168D6E-6FDD-56CA-AB42-7EA900D2A53F ;
+    ogst:P2 ogs:Q100 ;
+    ogst:P100 <https://www.openstreetmap.org/node/13684729596> ;
+    ogst:P101 <https://www.openstreetmap.org/node/13684729596/history/2> ;
+    ogst:P107 <https://www.openstreetmap.org/node/13684729596/history/1> ;
+    ogst:P110 "Point(-4.3130902 55.8647341)"^^geo:wktLiteral ;
+    ogst:P111 "POINT(-4.3130902 55.8647341)" ;
+    ogst:P113 "collection=yes",
+        "historic=hogback",
+        "indoor=yes",
+        "moved=yes",
+        "name=Govan Stone 5",
+        "ref=ECMS 11, Lang 5",
+        "url:sketchfab=https://skfb.ly/6XWFv",
+        "wikidata=Q138806715" .
+
+ogss:Q105-0F2AA3B1-10AD-5E4B-A580-AE4EDDC286D3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:57b25acfcbffcef88960e0881601f63f6ac0aba5 ;
+    ogsps:P113 "url:sketchfab=https://skfb.ly/6XWFv" .
+
+ogss:Q105-1F164689-2210-59E4-838E-D79E3F1AC0D1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:57b25acfcbffcef88960e0881601f63f6ac0aba5 ;
+    ogsps:P113 "ref=ECMS 11, Lang 5" .
+
+ogss:Q105-3D0D31AF-6017-53F3-89CA-4402DC663103
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:57b25acfcbffcef88960e0881601f63f6ac0aba5 ;
+    ogsps:P113 "historic=hogback" .
+
+ogss:Q105-4AAA32F9-2119-5E51-B5CB-26E33F242217
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogspq:P109 "govan" ;
+    ogsps:P107 <https://www.openstreetmap.org/node/13684729596/history/1> .
+
+ogss:Q105-4F5C6325-1545-5656-8B4D-85F6464FD3D6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:57b25acfcbffcef88960e0881601f63f6ac0aba5 ;
+    ogsps:P110 "Point(-4.3130902 55.8647341)"^^geo:wktLiteral ;
+    ogspsv:P110 ogsv:880fbb6200bf1a648567128fb24cd490 .
+
+ogss:Q105-9D5ED65F-57BB-544B-A6C0-8872ECE245F7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:57b25acfcbffcef88960e0881601f63f6ac0aba5 ;
+    ogsps:P113 "moved=yes" .
+
+ogss:Q105-3947B6CE-99CD-5B68-BF06-036DB4008A8D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:57b25acfcbffcef88960e0881601f63f6ac0aba5 ;
+    ogsps:P113 "collection=yes" .
+
+ogss:Q105-574936DC-E283-5B5C-8C29-490078AE35C1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    ogspq:P102 "+2"^^xsd:decimal ;
+    ogspq:P103 "2026-03-27T16:16:01Z" ;
+    ogspq:P104 "180510787" ;
+    ogspq:P105 "b-unicycling" ;
+    ogspq:P106 "1713634" ;
+    ogspqv:P102 ogsv:c295f8f927aa4b01b5401a2788a068ea ;
+    ogsps:P101 <https://www.openstreetmap.org/node/13684729596/history/2> .
+
+ogss:Q105-AC0E3F29-3392-5378-9319-C61DF6818674
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:57b25acfcbffcef88960e0881601f63f6ac0aba5 ;
+    ogsps:P113 "indoor=yes" .
+
+ogss:Q105-B3AC9E50-BE78-5951-BE8D-CE6D230AC6E1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q100 .
+
+ogss:Q105-BD9DCB81-A8CE-5196-80A1-B6C5E9982B92
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogspq:P102 "+1"^^xsd:decimal ;
+    ogspq:P103 "2026-03-27T13:17:54Z" ;
+    ogspq:P104 "180502340" ;
+    ogspq:P105 "fthierygeo" ;
+    ogspq:P106 "8813335" ;
+    ogspqv:P102 ogsv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ogsps:P101 <https://www.openstreetmap.org/node/13684729596/history/1> .
+
+ogss:Q105-CA60D4E0-E78A-5285-ACF6-802300C7D202
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:57b25acfcbffcef88960e0881601f63f6ac0aba5 ;
+    ogsps:P113 "name=Govan Stone 5" .
+
+ogss:Q105-D2535C6A-89F1-5BCB-9366-F5F6060E6223
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-4.3130902 55.8647341)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ogsref:f110b1df376e7f3449729b67fb8f90b4ce9f1527 ;
+    ogspq:P102 "+1"^^xsd:decimal ;
+    ogspq:P103 "2026-03-27T13:17:54Z" ;
+    ogspqv:P102 ogsv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ogsps:P111 "POINT(-4.3130902 55.8647341)" .
+
+ogss:Q105-E4168D6E-6FDD-56CA-AB42-7EA900D2A53F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:57b25acfcbffcef88960e0881601f63f6ac0aba5 ;
+    ogsps:P113 "wikidata=Q138806715" .
+
+ogss:Q105-FFE1A2CB-8C0A-53ED-A178-B7D05AD512BF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P100 <https://www.openstreetmap.org/node/13684729596> .
+
+ogsref:57b25acfcbffcef88960e0881601f63f6ac0aba5
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.openstreetmap.org/node/13684729596/history/2> .
+
+ogsref:f110b1df376e7f3449729b67fb8f90b4ce9f1527
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.openstreetmap.org/node/13684729596/history/1> .
+
+ogsv:880fbb6200bf1a648567128fb24cd490
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "55.8647341"^^xsd:double ;
+    wikibase:geoLongitude "-4.3130902"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ogsv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

@@ -1,0 +1,2515 @@
+{
+  "aliases": {},
+  "claims": {
+    "P100": [
+      {
+        "id": "Q108$2801E878-1F61-57D7-9BAC-40FDBB993A52",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/way/49859412"
+          },
+          "property": "P100",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P101": [
+      {
+        "id": "Q108$916A6151-B0AB-503D-9041-C9820D62A97A",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/way/49859412/history/1"
+          },
+          "property": "P101",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+1",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-02-08T18:56:12Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ],
+          "P104": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "3825917"
+              },
+              "property": "P104",
+              "snaktype": "value"
+            }
+          ],
+          "P105": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "Hawkeye"
+              },
+              "property": "P105",
+              "snaktype": "value"
+            }
+          ],
+          "P106": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "50118"
+              },
+              "property": "P106",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103",
+          "P104",
+          "P105",
+          "P106"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q108$95F68E16-61FF-5294-8FB0-CDB912E7BB5A",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/way/49859412/history/2"
+          },
+          "property": "P101",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-02-17T07:31:59Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ],
+          "P104": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "3898619"
+              },
+              "property": "P104",
+              "snaktype": "value"
+            }
+          ],
+          "P105": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "andrewpmk"
+              },
+              "property": "P105",
+              "snaktype": "value"
+            }
+          ],
+          "P106": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "1679"
+              },
+              "property": "P106",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103",
+          "P104",
+          "P105",
+          "P106"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q108$289B34CE-BAF3-5DE6-9CDC-F0BBCE910ED6",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/way/49859412/history/3"
+          },
+          "property": "P101",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+3",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2011-10-13T16:59:11Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ],
+          "P104": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "9548376"
+              },
+              "property": "P104",
+              "snaktype": "value"
+            }
+          ],
+          "P105": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "i am tiz"
+              },
+              "property": "P105",
+              "snaktype": "value"
+            }
+          ],
+          "P106": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "275749"
+              },
+              "property": "P106",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103",
+          "P104",
+          "P105",
+          "P106"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q108$63E34B62-2052-597D-93D7-FEEA571DE3EC",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/way/49859412/history/4"
+          },
+          "property": "P101",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+4",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2020-01-24T11:27:00Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ],
+          "P104": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "80028707"
+              },
+              "property": "P104",
+              "snaktype": "value"
+            }
+          ],
+          "P105": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "Scarlet72"
+              },
+              "property": "P105",
+              "snaktype": "value"
+            }
+          ],
+          "P106": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "9337076"
+              },
+              "property": "P106",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103",
+          "P104",
+          "P105",
+          "P106"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q108$9CEAD723-DC44-5C2B-B57A-B35280C2741F",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/way/49859412/history/5"
+          },
+          "property": "P101",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+5",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2020-10-08T13:21:10Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ],
+          "P104": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "92178488"
+              },
+              "property": "P104",
+              "snaktype": "value"
+            }
+          ],
+          "P105": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "Edward"
+              },
+              "property": "P105",
+              "snaktype": "value"
+            }
+          ],
+          "P106": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "364"
+              },
+              "property": "P106",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103",
+          "P104",
+          "P105",
+          "P106"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q108$FABD0B3B-506A-5C94-BC37-026286DA9BEA",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/way/49859412/history/6"
+          },
+          "property": "P101",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+6",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2021-11-30T15:59:48Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ],
+          "P104": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "114408556"
+              },
+              "property": "P104",
+              "snaktype": "value"
+            }
+          ],
+          "P105": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "smeòrach"
+              },
+              "property": "P105",
+              "snaktype": "value"
+            }
+          ],
+          "P106": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "2922304"
+              },
+              "property": "P106",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103",
+          "P104",
+          "P105",
+          "P106"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q108$E0B69966-457B-5250-9144-7CF411DE0CEA",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/way/49859412/history/7"
+          },
+          "property": "P101",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+7",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2025-12-02T00:37:32Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ],
+          "P104": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "175381152"
+              },
+              "property": "P104",
+              "snaktype": "value"
+            }
+          ],
+          "P105": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "philipcullen"
+              },
+              "property": "P105",
+              "snaktype": "value"
+            }
+          ],
+          "P106": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "8857"
+              },
+              "property": "P106",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103",
+          "P104",
+          "P105",
+          "P106"
+        ],
+        "rank": "preferred",
+        "type": "statement"
+      }
+    ],
+    "P107": [
+      {
+        "id": "Q108$9E654ED0-C00B-5E26-95CD-3249F3A1D4C8",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/way/49859412/history/2"
+          },
+          "property": "P107",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P109": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "govan"
+              },
+              "property": "P109",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P109"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P110": [
+      {
+        "id": "Q108$A2BC49FD-5EDF-5753-8870-351E772E8754",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 55.8646035,
+              "longitude": -4.3129993,
+              "precision": 1e-06
+            }
+          },
+          "property": "P110",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/4"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P111": [
+      {
+        "id": "Q108$66318BDF-FF5B-5DCD-948A-BA89E0494B85",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3130997 55.8647188, -4.3131411 55.8645641, -4.3130337 55.8645549, -4.3130226 55.8645983, -4.3129621 55.8645983, -4.3130441 55.864296, -4.3129433 55.8642549, -4.3128632 55.8642867, -4.3127833 55.8645457, -4.3127516 55.8646662, -4.3128151 55.8646819, -4.3128921 55.8646767, -4.3129401 55.8646477, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+1",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-02-08T18:56:12Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/1"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$4A37B6DD-910C-5DA4-A5BA-3AD6C351B05B",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3130997 55.8647188, -4.3131411 55.8645641, -4.3130489 55.8646598, -4.3130226 55.8645983, -4.3129621 55.8645983, -4.3130441 55.864296, -4.3129433 55.8642549, -4.3128632 55.8642867, -4.3127833 55.8645457, -4.3127516 55.8646662, -4.3128151 55.8646819, -4.3128921 55.8646767, -4.3129401 55.8646477, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:51:58Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$EC57D7E2-2F1D-55CA-9164-D6033D595F23",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3130997 55.8647188, -4.3131411 55.8645641, -4.3130489 55.8646598, -4.3130226 55.8645983, -4.3129621 55.8645983, -4.3130441 55.864296, -4.3129585 55.8643598, -4.3128632 55.8642867, -4.3127833 55.8645457, -4.3127516 55.8646662, -4.3128151 55.8646819, -4.3128921 55.8646767, -4.3129401 55.8646477, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:52:07Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$001C926C-697B-58D3-BED2-C97799AC52D5",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3131149 55.8648237, -4.3131411 55.8645641, -4.3130489 55.8646598, -4.3130226 55.8645983, -4.3129621 55.8645983, -4.3130441 55.864296, -4.3129585 55.8643598, -4.3128632 55.8642867, -4.3127833 55.8645457, -4.3127516 55.8646662, -4.3128151 55.8646819, -4.3128921 55.8646767, -4.3129401 55.8646477, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:52:14Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$A7B480A4-930B-57CD-860C-4E9A51D076E8",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3131149 55.8648237, -4.3131411 55.8645641, -4.3130489 55.8646598, -4.3130226 55.8645983, -4.3129621 55.8645983, -4.3130441 55.864296, -4.3129585 55.8643598, -4.3128632 55.8642867, -4.3127833 55.8645457, -4.3127516 55.8646662, -4.3128151 55.8646819, -4.3128921 55.8646767, -4.3129553 55.8647526, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:52:20Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$4F28B4B2-93E1-5B22-B7F3-E94511380B1F",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3131149 55.8648237, -4.3131411 55.8645641, -4.3130489 55.8646598, -4.3130226 55.8645983, -4.3129621 55.8645983, -4.3130441 55.864296, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3127833 55.8645457, -4.3127516 55.8646662, -4.3128151 55.8646819, -4.3128921 55.8646767, -4.3129553 55.8647526, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:52:22Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$465701DC-8D4F-5C0F-8792-49EE244B413C",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130226 55.8645983, -4.3129621 55.8645983, -4.3130441 55.864296, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3127833 55.8645457, -4.3127516 55.8646662, -4.3128151 55.8646819, -4.3128921 55.8646767, -4.3129553 55.8647526, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:52:30Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$B1CD89CB-5E27-59AF-AAAA-547A02365F31",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130226 55.8645983, -4.3129773 55.8647032, -4.3130441 55.864296, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3127833 55.8645457, -4.3127516 55.8646662, -4.3128151 55.8646819, -4.3128921 55.8646767, -4.3129553 55.8647526, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:52:40Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$FB75BC32-FE83-5480-8D5F-AAEBF8BC7E10",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130226 55.8645983, -4.3129773 55.8647032, -4.3130441 55.864296, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3127833 55.8645457, -4.3127668 55.8647711, -4.3128151 55.8646819, -4.3128921 55.8646767, -4.3129553 55.8647526, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:52:48Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$1A4CFCB4-3D18-5117-B726-BCEAEB9E75D5",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130226 55.8645983, -4.3129773 55.8647032, -4.3130441 55.864296, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3127833 55.8645457, -4.3127668 55.8647711, -4.3128151 55.8646819, -4.3129073 55.8647816, -4.3129553 55.8647526, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:52:56Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$35BC0DB1-950C-5912-8407-E9774543D342",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130226 55.8645983, -4.3129773 55.8647032, -4.3130593 55.8644009, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3127833 55.8645457, -4.3127668 55.8647711, -4.3128151 55.8646819, -4.3129073 55.8647816, -4.3129553 55.8647526, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:52:57Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$CC0DCDC7-401F-5C70-A3C8-EE00A0C33385",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130226 55.8645983, -4.3129773 55.8647032, -4.3130593 55.8644009, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3127985 55.8646506, -4.3127668 55.8647711, -4.3128151 55.8646819, -4.3129073 55.8647816, -4.3129553 55.8647526, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:53:02Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$BABB2059-B0BE-59D9-A83C-082C64BEFF23",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129751 55.864714, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130378 55.8647032, -4.3129773 55.8647032, -4.3130593 55.8644009, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3127985 55.8646506, -4.3127668 55.8647711, -4.3128151 55.8646819, -4.3129073 55.8647816, -4.3129553 55.8647526, -4.3129969 55.8646446, -4.3129751 55.864714))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:53:09Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$F4A433DD-F2C5-5F2B-B6C0-A578A0461643",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129903 55.8648189, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130378 55.8647032, -4.3129773 55.8647032, -4.3130593 55.8644009, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3127985 55.8646506, -4.3127668 55.8647711, -4.3128303 55.8647868, -4.3129073 55.8647816, -4.3129553 55.8647526, -4.3129969 55.8646446, -4.3129903 55.8648189))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:53:19Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$9669EB30-509C-53F2-BB50-B9484238B3AE",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129903 55.8648189, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130378 55.8647032, -4.3129773 55.8647032, -4.3130593 55.8644009, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3127985 55.8646506, -4.3127668 55.8647711, -4.3128303 55.8647868, -4.3129073 55.8647816, -4.3129553 55.8647526, -4.3130121 55.8647495, -4.3129903 55.8648189))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2010-10-17T12:53:38Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$D990E1AD-AEB1-5451-9B5A-FD86AD26DFC2",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129903 55.8648189, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130378 55.8647032, -4.3129773 55.8647032, -4.3130593 55.8644009, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3127985 55.8646506, -4.3127668 55.8647711, -4.3128303 55.8647868, -4.3129073 55.8647816, -4.3130089 55.8647797, -4.3130657 55.8647766, -4.3129903 55.8648189))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2011-10-13T16:59:05Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$0B54D9B0-E117-5E6B-9142-F96CFDCD885C",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129903 55.8648189, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130378 55.8647032, -4.3129773 55.8647032, -4.3130593 55.8644009, -4.3129585 55.8643598, -4.3128784 55.8643916, -4.3128521 55.8646777, -4.3128204 55.8647982, -4.3128839 55.8648139, -4.3129073 55.8647816, -4.3130089 55.8647797, -4.3130657 55.8647766, -4.3129903 55.8648189))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2011-10-13T16:59:06Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$E5BCC301-3306-5FA5-80CE-4304ECC47790",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3129903 55.8648189, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130378 55.8647032, -4.3129773 55.8647032, -4.3131129 55.864428, -4.3129585 55.8643598, -4.312932 55.8644187, -4.3128521 55.8646777, -4.3128204 55.8647982, -4.3128839 55.8648139, -4.3129073 55.8647816, -4.3130089 55.8647797, -4.3130657 55.8647766, -4.3129903 55.8648189))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2011-10-13T16:59:07Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$4D172A88-1ED2-5C67-AA01-C58FE2001DE8",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3130439 55.864846, -4.3131149 55.8648237, -4.3131563 55.864669, -4.3130489 55.8646598, -4.3130378 55.8647032, -4.3129773 55.8647032, -4.3131129 55.864428, -4.3130121 55.8643869, -4.312932 55.8644187, -4.3128521 55.8646777, -4.3128204 55.8647982, -4.3128839 55.8648139, -4.3129073 55.8647816, -4.3130089 55.8647797, -4.3130657 55.8647766, -4.3130439 55.864846))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2011-10-13T16:59:08Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$45E61328-B229-5185-A0C3-7C6CC75CA027",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3130439 55.864846, -4.3131685 55.8648508, -4.3132099 55.8646961, -4.3131025 55.8646869, -4.3130914 55.8647303, -4.3130309 55.8647303, -4.3131129 55.864428, -4.3130121 55.8643869, -4.312932 55.8644187, -4.3128521 55.8646777, -4.3128204 55.8647982, -4.3128839 55.8648139, -4.3129609 55.8648087, -4.3130089 55.8647797, -4.3130657 55.8647766, -4.3130439 55.864846))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+2",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2011-10-13T16:59:09Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/2"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$6596007F-5B66-5FEC-883F-842CD8522335",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3130439 55.864846, -4.3131685 55.8648508, -4.3132099 55.8646961, -4.3131025 55.8646869, -4.3130914 55.8647303, -4.3130309 55.8647303, -4.3131129 55.864428, -4.3130121 55.8643869, -4.312932 55.8644187, -4.3128521 55.8646777, -4.3128395 55.8647258, -4.3128204 55.8647982, -4.3128839 55.8648139, -4.3129609 55.8648087, -4.3130089 55.8647797, -4.3130657 55.8647766, -4.3130439 55.864846))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+3",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2011-10-13T16:59:11Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/3"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$D7D5DD9E-E566-5455-A629-7AF8357B0215",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "POLYGON((-4.3131453 55.8644082, -4.3131817 55.8644119, -4.313132 55.8645627, -4.3132436 55.8645742, -4.3132536 55.8645753, -4.3132385 55.8646211, -4.3132026 55.8646174, -4.3131912 55.8646521, -4.3132072 55.8646538, -4.3132039 55.8646638, -4.3131878 55.8646621, -4.3131783 55.8646909, -4.3131923 55.8646923, -4.3131736 55.8647489, -4.3131821 55.8647498, -4.3131779 55.8647626, -4.3131695 55.8647617, -4.3131513 55.8648168, -4.3131442 55.864816, -4.3131425 55.8648211, -4.3131242 55.8648192, -4.3131258 55.8648142, -4.3130611 55.8648075, -4.3130594 55.8648126, -4.3130401 55.8648106, -4.3130417 55.8648056, -4.3130334 55.8648047, -4.3130442 55.8647721, -4.3130027 55.8647678, -4.3129879 55.8648128, -4.3129933 55.8648133, -4.3129881 55.8648271, -4.312973 55.8648323, -4.3129522 55.8648308, -4.3129456 55.8648209, -4.31284 55.8648094, -4.3128385 55.8648148, -4.312824 55.8648206, -4.3128043 55.8648187, -4.3127921 55.864811, -4.3127983 55.8647976, -4.3128064 55.8647984, -4.3128216 55.8647522, -4.3127816 55.8647481, -4.3127786 55.8647574, -4.3127598 55.8647554, -4.3127626 55.8647466, -4.3127449 55.8647448, -4.3127494 55.8647312, -4.3127677 55.8647331, -4.3127759 55.8647082, -4.3127902 55.8646648, -4.3127733 55.864663, -4.3127768 55.8646523, -4.3127967 55.8646543, -4.3128862 55.8643831, -4.3129196 55.8643866, -4.3129235 55.8643748, -4.3129531 55.8643778, -4.3129495 55.8643886, -4.313115 55.8644058, -4.313119 55.8643938, -4.313149 55.8643969, -4.3131453 55.8644082))"
+          },
+          "property": "P111",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P102": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+4",
+                  "unit": "1"
+                }
+              },
+              "property": "P102",
+              "snaktype": "value"
+            }
+          ],
+          "P103": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "2020-01-24T11:27:00Z"
+              },
+              "property": "P103",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P102",
+          "P103"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/4"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P113": [
+      {
+        "id": "Q108$EC93B4A3-8AA6-505C-A4B6-50CAFCD69D61",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "addr:city=Glasgow"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/7"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$9CB0A507-C808-5E62-BA88-8CE7EC129E2C",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "addr:postcode=G51 3UU"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/7"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$76CD1067-6E1D-5F5E-8798-977A01BECCBA",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "addr:street=Govan Road"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/7"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$5449A9B2-835F-5F2D-ADCF-BD6CE62FEEDB",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "amenity=place_of_worship"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/7"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$B479C630-8D50-524E-90D9-662F76840665",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "building=church"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/7"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$D7419C84-112C-531F-BC23-4C85887B7102",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "denomination=church_of_scotland"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/7"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$9CD4838C-1B5F-5F60-AF82-E8649A959B55",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "name=Govan Old Parish Church"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/7"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$6B626CA2-C389-5B25-8935-E89842D59413",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "ref:GB:uprn=906700170769"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/7"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$F12C3A51-2DEA-5013-BDFA-563239B37685",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "religion=christian"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/7"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$5EF60922-7DF3-5A99-B4A3-8520143D6DE2",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "wikidata=Q5588564"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/7"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      },
+      {
+        "id": "Q108$DB603795-9739-52FC-996E-452EB9311D15",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "wikipedia=en:Govan Old Parish Church"
+          },
+          "property": "P113",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/49859412/history/7"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P2": [
+      {
+        "id": "Q108$2650679E-8FD2-5447-9458-B967CD435F9A",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q100",
+              "numeric-id": 100
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Höhenmarke (OpenStreetMap-Weg 49859412)"
+    },
+    "en": {
+      "language": "en",
+      "value": "Benchmark (OpenStreetMap way 49859412)"
+    }
+  },
+  "id": "Q108",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Govan Old Parish Church"
+    },
+    "en": {
+      "language": "en",
+      "value": "Govan Old Parish Church"
+    }
+  },
+  "sitelinks": {},
+  "type": "item"
+}

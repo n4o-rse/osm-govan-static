@@ -8,7 +8,7 @@ Each OSM element becomes one item with one QID, as OSM itself knows only one ID 
 element's version history is tracked as statements on that item, and every item is anchored on
 a CIDOC CRM class: `crm:E18 Physical Thing` (proposal, see PRIMER.md). The geometry of each version is kept as WKT, so the model also carries ways and relations.
 
-**State (S1, S2):** the skeleton and the model (the class “Govan Old feature”, the fourteen properties of the benchmarks site) are in place; there are no data yet. The first harvest is step S4 (a handful of elements), after a change in the package (`wikibase-static`, PRIMER.md step S3). The work plan, the decisions made so far and the steps ahead are in [`PRIMER.md`](PRIMER.md) (German).
+**State:** the skeleton and the model are in place, and the raw data of the first harvest (OpenStreetMap, 2026-11-18: 8 elements, 28 versions) are archived under `data/raw/`. The tables are imported from them offline (`python main.py import-osm --offline`). The site is not published yet: the descriptions of the items need a change in the package first (`wikibase-static`, PRIMER.md step S3). The work plan, the decisions made so far and the steps ahead are in [`PRIMER.md`](PRIMER.md) (German).
 
 ## Build
 
@@ -33,3 +33,6 @@ The code of this repository is under the [MIT licence](LICENSE).
 The data are derived from OpenStreetMap: © OpenStreetMap contributors, available under the
 [Open Database Licence (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
 Every page of the site carries that notice (`license` in `site.yaml`).
+
+The logo (`assets/logo.png`, a pen drawing of the Govan sarcophagus in the old church) is by Florian Thiery, generated with ChatGPT and
+published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The licence of the code (MIT) does not cover it.
